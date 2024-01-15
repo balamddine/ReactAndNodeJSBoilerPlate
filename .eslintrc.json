@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "office-addins",
+    "plugin:react/recommended"
+  ],
+  "extends": [
+    "plugin:office-addins/react"
+  ]
+}

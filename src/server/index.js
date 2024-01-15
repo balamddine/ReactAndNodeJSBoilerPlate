@@ -9,9 +9,9 @@ app.use(
 
 app.use(bodyParser.json({ limit: '50mb' }));
 
-app.use(express.static(path.join("build")));
+app.use(express.static(path.join("dist")));
 
-const port = 8080; // prod port
+const port = 3001; // prod port
 app.get("/", (req, res) => {
   res.send("<h2>This is the URL that is configured for your application link in Jira</h2>");
 });
